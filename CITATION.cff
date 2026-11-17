@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "Jika Anda memakai perangkat lunak ini, mohon sitasi sebagai berikut."
+title: "criteria-review-retrieval: a configurable hybrid retrieval library for RAG-based document review"
+abstract: >-
+  Library TypeScript tanpa dependensi runtime untuk retrieval hibrida dan
+  evaluasi dokumen terhadap daftar kriteria: pemecahan dokumen berbasis
+  struktur, penyusunan kueri leksikal pembeda dengan penyaringan frekuensi
+  dokumen, peleburan peringkat dengan Reciprocal Rank Fusion, pengelompokan
+  kriteria ke dalam panggilan LLM, serta metrik retrieval dan metrik verdict.
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-17"
+
+authors:
+  - family-names: "Atikah"
+    given-names: "Sri"
+  - family-names: "Subekti"
+    given-names: "Ginanjar"
+
+repository-code: "https://github.com/sriatikah51/criteria-review-retrieval"
+
+keywords:
+  - information retrieval
+  - reciprocal rank fusion
+  - hybrid retrieval
+  - document chunking
+  - retrieval augmented generation
+  - evaluation metrics
+
+references:
+  - type: article
+    title: "Reciprocal rank fusion outperforms Condorcet and individual rank learning methods"
+    authors:
+      - family-names: "Cormack"
+        given-names: "Gordon V."
+      - family-names: "Clarke"
+        given-names: "Charles L. A."
+      - family-names: "Buettcher"
+        given-names: "Stefan"
+    collection-title: "Proceedings of the 32nd International ACM SIGIR Conference on Research and Development in Information Retrieval"
+    year: 2009
+    start: 758
+    end: 759
+    doi: "10.1145/1571941.1572114"
+    notes: "Sumber konstanta peredam RRF k = 60 yang dipakai sebagai nilai default."

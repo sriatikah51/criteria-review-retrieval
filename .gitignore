@@ -1,0 +1,31 @@
+node_modules
+dist
+coverage
+
+# Lingkungan dan kredensial - jangan pernah di-commit
+.env
+.env.*
+*.pem
+*.key
+
+# Keluaran paket
+*.tgz
+
+# Log
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Data dan hasil eksperimen - repositori ini hanya memuat kode library.
+# Jangan pernah menambahkan dokumen sumber, dump basis data, label anotasi,
+# atau hasil evaluasi ke sini.
+*.pdf
+*.sql
+*.jsonl
+*.xlsx
+
+# Berkas sistem / editor
+.DS_Store
+Thumbs.db
+.idea
+.vscode

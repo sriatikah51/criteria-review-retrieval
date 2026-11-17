@@ -1,0 +1,45 @@
+{
+  "name": "criteria-review-retrieval",
+  "version": "1.0.0",
+  "description": "Configurable hybrid retrieval (embedding + lexical, Reciprocal Rank Fusion) and criteria-based document review pipeline for RAG.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "node --test --import tsx test/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "rag",
+    "hybrid-retrieval",
+    "reciprocal-rank-fusion",
+    "document-review",
+    "retrieval"
+  ],
+  "author": "Sri Atikah",
+  "contributors": [
+    "Ginanjar Subekti"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriatikah51/criteria-review-retrieval.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
