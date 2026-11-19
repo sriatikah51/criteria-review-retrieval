@@ -111,3 +111,11 @@ Tidak ada dokumen sumber, teks laporan, label anotasi / ground truth, hasil
 verdict LLM, maupun berkas peringkat pembanding. `K1_rankings.csv` hanya memuat
 huruf dokumen, kode kriteria, nilai K, jumlah, dan identifier chunk — tidak ada
 teks dan tidak ada label.
+
+Folder `logs/` berisi log jalan nyata untuk angka 420 / 420 (K = 10) dan
+1.820 perbandingan / 0 berbeda (sapuan max_df) di atas: **peringkat** hasil
+library dibandingkan dengan peringkat yang tersimpan dari eksperimen. Folder
+`app_side/` berisi uji yang berbeda: **string kueri leksikal** dan **fusi RRF**
+dari kode aplikasi dibandingkan dengan library (1.820 / 1.820 dan
+1.820 / 1.820 identik). Kedua uji kebetulan sama-sama berjumlah 1.820
+perbandingan, tetapi yang dibandingkan berbeda.

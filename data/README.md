@@ -17,7 +17,7 @@ data/
 ├── annotations/      label anotator dan ground truth hasil adjudikasi
 ├── model_outputs/    verdict model dan audit kutipan
 ├── retrieval/        peringkat retrieval per metode
-├── SHA256SUMS.txt    checksum 15 berkas data
+├── SHA256SUMS.txt    checksum 14 berkas data
 └── README.md         berkas ini
 ```
 
@@ -131,13 +131,7 @@ Rincian pendukung analisis kesalahan. Objek dengan empat kunci tingkat atas:
 
 ## retrieval/
 
-### `per_case_retrieval_all_maxdf.csv` — 5.460 baris
-
-Metrik retrieval per kasus untuk tiap kombinasi ambang `max_df` dan metode.
-
-Kolom: `max_df`, `method`, `document`, `criterion`, `role`, `gt_count`,
-`retrieved_count`, `lexical_query_null`, `hit`, `precision`, `recall`, `f1`,
-`recall_norm`, `r_precision`, `h`.
+Hasil per kasus dapat dihitung dari semantic_top50.csv, lexical_top50.csv, top50_bm25_v1..v4.csv, dan annotations/ground_truth_adjudicated.csv.
 
 ### `semantic_top50.csv` — 7.000 baris
 
@@ -178,7 +172,7 @@ cd data
 sha256sum -c SHA256SUMS.txt
 ```
 
-Diharapkan: 15 berkas OK. `SHA256SUMS.txt` dan `README.md` sendiri tidak
+Diharapkan: 14 berkas OK. `SHA256SUMS.txt` dan `README.md` sendiri tidak
 termasuk dalam daftar checksum.
 
 ## Keterbukaan identitas dokumen

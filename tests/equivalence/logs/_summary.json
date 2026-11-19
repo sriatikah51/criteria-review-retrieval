@@ -1,0 +1,68 @@
+{
+  "dibuat": "2026-11-17T04:24:55.758Z",
+  "konfigurasi": {
+    "K_VALUES": [
+      5,
+      10,
+      20
+    ],
+    "MAXDF_VALUES": [
+      0.05,
+      0.08,
+      0.1,
+      0.12,
+      0.15,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.8,
+      0.95,
+      1
+    ],
+    "rrfK": 60,
+    "maxDf": 0.1,
+    "minWordLength": 3,
+    "nDokumen": 10,
+    "nKriteria": 14,
+    "nChunkTotal": 1729,
+    "dimensiEmbedding": 768
+  },
+  "verifikasiConfigSnapshot": {
+    "bedaVsDiminta": [],
+    "bedaDefaultConfigPustaka": []
+  },
+  "kesetaraanK10": {
+    "diperiksa": 420,
+    "identik": 420,
+    "beda": []
+  },
+  "sapuanMaxDf": {
+    "diperiksa": 1820,
+    "bedaLeksikal": 0,
+    "bedaHibrida": 0,
+    "kueriKosongPerMaxDf": {
+      "1": 0,
+      "0.05": 62,
+      "0.08": 22,
+      "0.1": 15,
+      "0.12": 6,
+      "0.15": 5,
+      "0.2": 2,
+      "0.3": 1,
+      "0.4": 0,
+      "0.5": 0,
+      "0.6": 0,
+      "0.8": 0,
+      "0.95": 0
+    }
+  },
+  "nondeterminisme": {
+    "embeddingHashPass1": "a66ac78fc23dc8bc",
+    "embeddingHashPass2": "a66ac78fc23dc8bc",
+    "peringkatBerbeda": 0,
+    "rincian": []
+  },
+  "silangUjiLenganTunggalViaRRF": true
+}
