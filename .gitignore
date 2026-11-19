@@ -20,6 +20,9 @@ yarn-error.log*
 # Jangan pernah menambahkan dokumen sumber, dump basis data, label anotasi,
 # atau hasil evaluasi ke sini.
 *.pdf
+
+# Pengecualian: 10 laporan LAKIN studi kasus sengaja disertakan (lihat data/README.md).
+!reports/*.pdf
 *.sql
 *.jsonl
 *.xlsx
